@@ -4,7 +4,7 @@ Uma Simples aplicação api para cadastro e consulta de produtos usando Lybrary 
 Spring WebFlux e bando de dados nosql mongodb
 
 Tecnologias usadas:
--Java 16
+-Java 11
 -Spring WebFlux
 -Reactor
 -Mongodb
