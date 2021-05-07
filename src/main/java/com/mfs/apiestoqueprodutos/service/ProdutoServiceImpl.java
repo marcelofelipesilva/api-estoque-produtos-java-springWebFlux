@@ -30,12 +30,9 @@ public class ProdutoServiceImpl implements  ProdutoService{
 
     @Override
     public Mono<Produto> update(Produto produto) {
-        return pr.insert(produto);
+        return pr.save(produto);
     }
 
     @Override
-    public Mono<Produto> delete(String id) {
-        pr.deleteById(id);
-        return null;
-    }
+    public Mono<Void> delete(String id) { return pr.deleteById(id); }
 }
